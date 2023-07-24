@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
   // 바로 작성을 하려면 template 속성을 이용해야 한다.
   styleUrls: ['./qqq.component.css'],
 })
-export class QqqComponent {}
+export class QqqComponent {
+  myText = '텍스트 변수입니다.';
+}
