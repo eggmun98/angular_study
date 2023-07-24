@@ -1,3 +1,5 @@
+앵귤러JS를 공부하는 레포지토리 입니다.
+
 # AngularStudy
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
