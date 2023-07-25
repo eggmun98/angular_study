@@ -4,4 +4,8 @@
 <p>카운터 연습</p>
 <p>나의 카운터: {{ myCount }}</p>
 <button (click)="onClickCount()">카운터 연습</button>
+<p>------------------</p>
+<button (click)="onClickIsTrue()" [ngClass]="{ a: myBoolean, b: !myBoolean }">
+  버튼 색상 변경
+</button>
 <!-- 위에는 컴포넌트와 연결되어 있는 html 템플릿이다.-->
