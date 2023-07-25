@@ -14,6 +14,7 @@ export class QqqComponent {
 
   onClickCount() {
     this.myCount++;
+    console.log(this.myCount);
   }
 
   onClickIsTrue() {
