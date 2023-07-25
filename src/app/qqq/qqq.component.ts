@@ -9,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class QqqComponent {
   myText = '텍스트 변수입니다.';
+  myCount = 1;
+
+  onClickCount() {
+    this.myCount++;
+  }
 }
