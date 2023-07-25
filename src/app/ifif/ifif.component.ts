@@ -5,4 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './ifif.component.html',
   styleUrls: ['./ifif.component.css'],
 })
-export class IfifComponent {}
+export class IfifComponent {
+  eventData = '';
+
+  onChangeData(event: Event) {
+    this.eventData = (event.target as HTMLInputElement).value;
+    console.log(this.eventData);
+  }
+}
